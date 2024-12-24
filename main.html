@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolyo Sitem</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-logo">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#anasayfa">Home</a></li>
+                <li><a href="#hakkimda">About Me</a></li>
+                <li><a href="#projeler">Projects</a></li>
+                <li><a href="#iletisim">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="anasayfa" class="hero">
+            <div class="hero-content">
+                <p class="pre-title">Hey, I'm</p>
+                <h1><span class="highlight">Selim Can Aydın</span></h1>
+                <p class="subtitle">Software Engineering Student</p>
+            </div>
+        </section>
+
+        <section id="hakkimda" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text reveal-left">
+                        <p>Hello, I'm Selim Can Aydın. I'm a second year software engineering student at Istanbul Sabahattin Zaim University.</p>
+                        <p>I'm interested in both front-end and back-end development. I'm trying to learn new technologies and improve my skills.</p>
+                        <p>I'm a quick learner and I'm always looking to expand my knowledge.</p>
+                    </div>
+                    <div class="skills reveal-right">
+                        <h3>Skills</h3> 
+                        <div class="skill-bars">
+                            <div class="skill">
+                                <span class="skill-name">JavaScrıpt</span>
+                                <div class="skill-bar">
+                                    <div class="skill-per" per="40"></div>
+                                </div>
+                        <div class="skill-bars">
+                            <div class="skill">
+                                <span class="skill-name">Kubernetes & Docker</span>
+                                <div class="skill-bar">
+                                    <div class="skill-per" per="70"></div>
+                                </div>
+                        <div class="skill-bars">
+                            <div class="skill">
+                                <span class="skill-name">Java</span>
+                                <div class="skill-bar">
+                                    <div class="skill-per" per="50"></div>
+                                </div>
+                        <div class="skill-bars">
+                            <div class="skill">
+                                <span class="skill-name">C++</span>
+                                <div class="skill-bar">
+                                    <div class="skill-per" per="50"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <span class="skill-name">HTML/CSS</span>
+                                <div class="skill-bar">
+                                    <div class="skill-per" per="65"></div>
+                                </div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projeler" class="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card reveal-up">
+                        <div class="project-image gradient-bg">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://github.com/scana1405" target="_blank"><i class="fab fa-github"></i></a>
+                                    <a href="proje-detay.html"><i class="fas fa-info-circle"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>BAP-100 Kilit Sistemi</h3>
+                            <p>BAP-100 Kilit Sistemi is a system that makes it easier to access the laboratories in the university.</p>
+                            <div class="project-tech">
+                                <span>JavaScript</span>
+                                <span>Node.js</span>
+                                <span>HTML/CSS</span>
+                                <span>Kubernetes & Docker</span>
+                                <span>Python</span>
+                                <span>MySQL</span>
+                                <span>Nginx</span>
+                                <span>Flutter</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="iletisim" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Information</h2>
+                <div class="contact-wrapper reveal-up">
+                    <div class="contact-header">
+                        <h3>Selim Can Aydın</h3>
+                    </div>
+                    
+                    <div class="contact-info-strip">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:ornek@email.com">scana1405@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+905555555555">+90 542 494 28 01</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>İstanbul, Türkiye</span>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/scana1405" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/selimcanaydin/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>built by scana1405</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
